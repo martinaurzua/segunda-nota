@@ -19,12 +19,13 @@
             Cambie los colores, usando alguna armonía de color tomada de 
             https://color.adobe.com/es/create/color-wheel
             Indique en este comentario la armonía que decide utilizar 
+            Armonía de color monocromática
         */
 
         :root{
-            --colorPrincipal:#4DDBD6;
-            --colorOpuesto:#DB4DBF;
-            --colorMediador:#DBC24D;
+            --colorPrincipal:#A60303;
+            --colorOpuesto:#731919;
+            --colorMediador:#BF0426;
         }
 
         /* 
@@ -34,12 +35,12 @@
         body {
             font-family: Helvetica, Arial, sans-serif;
             background-color: #FFF;
-            color: #000;
+            color: ghostwhite;
             overflow-x: hidden;
         }
 
         a{
-            color:black;
+            color:ghostwhite;
         }
 
         a:hover{
@@ -61,7 +62,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            border-right: 8px solid #000;
+            border-right: 8px solid ghostwhite;
             position: relative;
         }
 
@@ -96,13 +97,13 @@
             font-family: "Climate Crisis", sans-serif;
             letter-spacing: 2px;
             font-size: calc(0.75rem + 0.75vw);
-            background-color: var(--colorMediador);
-            color: #000;
-            border: 6px solid #000;
+            background-color: white;
+            color: #731919;
+            border: 6px solid #731919;
             padding: 25px 50px;
             text-transform: uppercase;
             cursor: pointer;
-            box-shadow: 12px 12px 0 #000;
+            box-shadow: 12px 12px 0 #731919;
             transition: all 0.1s ease;
             text-decoration: none;
             display: inline-block;
@@ -113,12 +114,12 @@
 
         .download-btn:hover {
             transform: translate(4px, 4px);
-            box-shadow: 8px 8px 0 #000;
+            box-shadow: 8px 8px 0 #731919;
         }
 
         .download-btn:active {
             transform: translate(8px, 8px);
-            box-shadow: 4px 4px 0 #000;
+            box-shadow: 4px 4px 0 #731919;
         }
 
         /* ===========LO QUE VA A LA DERECHA, O ABAJO============== */
@@ -139,8 +140,8 @@
         }
 
         .mugshot-frame {
-            border: 8px solid #000;
-            box-shadow: 20px 20px 0 #000;
+            border: 8px solid #A60303;
+            box-shadow: 20px 20px 0 #A60303;
             background-color: #FFF;
             padding: 20px;
             transform: rotate(2deg);
@@ -154,12 +155,12 @@
         .mugshot {
             width: 100%;
             height: auto;
-            background:black;
+            background:#731919;
         }
 
         .mugshot img{
-            border: 4px solid #000;
-            border-bottom: 1px solid #000;
+            border: 4px solid #731919;
+            border-bottom: 1px solid #731919;
             width: 100%;
             height: auto;
             object-fit: cover;
@@ -172,14 +173,14 @@
             top: -30px;
             right: -30px;
             background-color: var(--colorMediador);
-            color: #000;
+            color: #A60303;
             padding: 20px 30px;
-            border: 5px solid #000;
+            border: 5px solid ghostwhite;
             border-radius: 50%;
             font-size: 1rem;
             font-weight: 400;
             transform: rotate(15deg);
-            box-shadow: 8px 8px 0 #000;
+            box-shadow: 8px 8px 0 #731919;
             z-index: 2;
         }
 
@@ -193,7 +194,7 @@
 
             .left-section {
                 border-right: none;
-                border-bottom: 8px solid #000;
+                border-bottom: 8px solid #731919;
             }
         }
 
@@ -208,8 +209,8 @@
     <div class="container">
         <div class="left-section">
             <!--segundo punto por los ajuste en la sección izquierda-->
-            <h1>NOMBRE APELLIDO</h1>
-            <p>Reemplace este texto, manteniendo la brevedad y usando un <a href="https://www.nngroup.com/videos/tone-of-voice-dimensions/" target="_blank">tono de voz</a> que coincida con el <a href="https://www.nngroup.com/articles/neobrutalism/" target="_blank">neobrutalismo</a> que inspira el estilo de la página; y cambie la foto por un retrato suyo.</p>
+            <h1>Martina Urzúa</h1>
+            <p>Estudiante de Diseño en la Universidad de Chile. Me encanta hacer que los productos funcionen y se vean bien. Si buscas soluciones honestas, funcionales y bien construidas, has llegado al lugar correcto.</p>
             <!--suba el PDF a GitHub y cambie la referencia de hipertexto-->
             <a href="#" class="download-btn" download>MI PORTAFOLIO</a>
         </div>
@@ -219,12 +220,12 @@
             <div class="mugshot-container">
                 <div class="badge">
                     <!--vincule a su cuenta en GitHub-->
-                    <a href="#" target="_blank">2025</a>
+                    <a href="https://github.com/martinaurzua" target="_blank">2025</a>
                 </div>
                 <div class="mugshot-frame">
                     <div class="mugshot">
                         <!--incluya la misma imagen que utiliza en su portafolio, a resolución, tamaño y peso adecuado para la web-->
-                        <img src="https://picsum.photos/500/500.jpg">
+                        <img src="https://martinaurzua.github.io/segunda-nota/1759780329728.jpg">
                     </div>
                 </div>
             </div>
